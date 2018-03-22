@@ -20,4 +20,3 @@ class ReviewsController < ApplicationController
     params.require(:review).permit(:content, :rating, :restaurant_id)
   end
 end
-
